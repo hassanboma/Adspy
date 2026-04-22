@@ -1,1 +1,1 @@
-worker: python adspy_bot_no_token.py
+web: python adspy_bot_no_token.py
