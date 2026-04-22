@@ -1,5 +1,8 @@
+[phases.setup]
+nixPkgs = ["python311"]
+
 [phases.build]
-cmds = ["pip install --upgrade pip", "pip install -r requirements.txt"]
+cmds = ["pip install python-telegram-bot==20.7 requests beautifulsoup4 lxml"]
 
 [start]
 cmd = "python adspy_bot_no_token.py"
